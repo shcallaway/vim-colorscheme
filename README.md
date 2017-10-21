@@ -2,7 +2,7 @@ vim-colorscheme-tatami
 ====================
 
 ## :set background=light
-![background=light](http://art1.photozou.jp/bin/photo/234048237/org.bin?size=1024)
+![background=light](https://imgur.com/Tjr97CI.png)
 
 ## :set background=dark
-![background=dark](http://art1.photozou.jp/bin/photo/234048234/org.bin?size=1024)
+![background=dark](https://imgur.com/9iopFhA.png)
