@@ -152,7 +152,7 @@ function! s:set() abort
     let highlight_group.VertSplit    = [oitake,       mushiao,     none,      none]
     let highlight_group.ColorColumn  = [none,         wakana,      none,      none]
     " Fold
-    let highlight_group.Folded       = [sakurairo,    mokuranziki, none,      none]
+    let highlight_group.Folded       = [torinoko,     mokuranziki, none,      none]
     " Statusline
     let highlight_group.StatusLine   = [nanohana,     mushiao,     none,      none]
     let highlight_group.StatusLineNC = [oitake,       mushiao,     none,      none]
