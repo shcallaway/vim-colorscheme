@@ -46,7 +46,7 @@ function! s:set() abort
   let benimurasaki   = {'gui': '#b44c97',   'cterm': '133'}
   let kuwanomi       = {'gui': '#74325c',   'cterm': '89'}
   let sikon          = {'gui': '#460e44',   'cterm': '54'}
-  let kamenozoki     = {'gui': '#a2d7dd',   'cterm': '159'}
+  let mizuiro        = {'gui': '#bce2e8',   'cterm': '159'}
   let usukon         = {'gui': '#9abafd',   'cterm': '111'}
   let tuyukusa       = {'gui': '#38a1db',   'cterm': '39'}
   let kakitubata     = {'gui': '#3e62ad',   'cterm': '63'}
@@ -100,12 +100,12 @@ function! s:set() abort
     let highlight_group.Title        = [rokusho,      none,        bold,      none]
     let highlight_group.WarningMsg   = [kokutan,      nanohana,    none,      none]
     " Completion
-    let highlight_group.Pmenu        = [tekkon,       kamenozoki,  none,      none]
+    let highlight_group.Pmenu        = [tekkon,       mizuiro,     none,      none]
     let highlight_group.PmenuSel     = [tekkon,       tuyukusa,    none,      none]
     let highlight_group.PmenuSbar    = [kakitubata,   sakurairo,   none,      none]
     let highlight_group.PmenuThumb   = [sakurairo,    kakitubata,  none,      none]
     " Diff
-    let highlight_group.DiffAdd      = [none,         kamenozoki,  none,      none]
+    let highlight_group.DiffAdd      = [none,         mizuiro,     none,      none]
     let highlight_group.DiffChange   = [none,         nanohana,    none,      none]
     let highlight_group.DiffDelete   = [none,         tokiiro,     none,      none]
     let highlight_group.DiffText     = [none,         nanohana,    underline, none]
@@ -148,7 +148,7 @@ function! s:set() abort
     let highlight_group.LineNr       = [torinoko,     matsubairo,  none,      none]
     let highlight_group.CursorLineNr = [nanohana,     matsubairo,  bold,      none]
     let highlight_group.FoldColumn   = [torinoko,     matsubairo,  none,      none]
-    let highlight_group.SignColumn   = [kamenozoki,   matsubairo,  none,      none]
+    let highlight_group.SignColumn   = [mizuiro,      matsubairo,  none,      none]
     let highlight_group.VertSplit    = [oitake,       mushiao,     none,      none]
     let highlight_group.ColorColumn  = [none,         wakana,      none,      none]
     " Fold
@@ -191,7 +191,7 @@ function! s:set() abort
     let highlight_group.Comment      = [wakatake,     none,        none,      none]
     let highlight_group.Constant     = [usumurasaki,  none,        none,      none]
     let highlight_group.Identifier   = [tanko,        none,        none,      none]
-    let highlight_group.Function     = [kamenozoki,   none,        none,      none]
+    let highlight_group.Function     = [mizuiro,      none,        none,      none]
     let highlight_group.Statement    = [tokiiro,      none,        none,      none]
     let highlight_group.PreProc      = [ominaeshi,    none,        bold,      none]
     let highlight_group.Type         = [kanzo,        none,        none,      none]
