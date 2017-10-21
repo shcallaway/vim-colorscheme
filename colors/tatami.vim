@@ -179,7 +179,7 @@ function! s:set() abort
     " Diff
     let highlight_group.DiffAdd      = [none,         rurikon,     none,      none]
     let highlight_group.DiffChange   = [none,         sikon,       none,      none]
-    let highlight_group.DiffDelete   = [none,         kokihi,      none,      none]
+    let highlight_group.DiffDelete   = [none,         hiiro,       none,      none]
     let highlight_group.DiffText     = [none,         sikon,       underline, none]
     " Miscellaneous
     let highlight_group.Directory    = [tokiiro,      none,        none,      none]
