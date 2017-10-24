@@ -75,7 +75,7 @@ function! s:set() abort
     " Sidebar
     let highlight_group.LineNr       = [oitake,       wakana,      none,      none]
     let highlight_group.CursorLineNr = [tekkon,       wakana,      bold,      none]
-    let highlight_group.FoldColumn   = [tekkon,       wakana,      none,      none]
+    let highlight_group.FoldColumn   = [tekkon,       shirafuji,   none,      none]
     let highlight_group.SignColumn   = [hiwada,       wakana,      none,      none]
     let highlight_group.VertSplit    = [wakatake,     rokusho,     none,      none]
     let highlight_group.ColorColumn  = [none,         aokuchiba,   none,      none]
@@ -147,7 +147,7 @@ function! s:set() abort
     " Sidebar
     let highlight_group.LineNr       = [torinoko,     matsubairo,  none,      none]
     let highlight_group.CursorLineNr = [nanohana,     matsubairo,  bold,      none]
-    let highlight_group.FoldColumn   = [torinoko,     matsubairo,  none,      none]
+    let highlight_group.FoldColumn   = [torinoko,     mokuranziki, none,      none]
     let highlight_group.SignColumn   = [mizuiro,      matsubairo,  none,      none]
     let highlight_group.VertSplit    = [oitake,       mushiao,     none,      none]
     let highlight_group.ColorColumn  = [none,         wakana,      none,      none]
