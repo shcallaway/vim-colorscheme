@@ -13,11 +13,11 @@ let g:colors_name = 'tatami'
 function! s:set() abort
   " Palette
   let sakurairo      = {'gui': '#fef4f4',   'cterm': '15'}
-  let dobunezumi     = {'gui': '#595455',   'cterm': '239'}
+  let dobunezumi     = {'gui': '#252525',   'cterm': '239'}
   let kokutan        = {'gui': '#250f00',   'cterm': '0'}
   let wakame         = {'gui': '#e0ebaf',   'cterm': '193'}
   let wakana         = {'gui': '#d8e698',   'cterm': '192'}
-  let wakatake       = {'gui': '#a8c97f',   'cterm': '151'}
+  let wakatake       = {'gui': '#92DC9B',   'cterm': '151'}
   let ominaeshi      = {'gui': '#e2f2b0',   'cterm': '193'} " edited
   let moegi          = {'gui': '#aacf53',   'cterm': '148'}
   let matsubairo     = {'gui': '#839b5c',   'cterm': '71'}
