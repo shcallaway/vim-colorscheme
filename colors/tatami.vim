@@ -82,8 +82,8 @@ function! s:set() abort
     " Fold
     let highlight_group.Folded       = [tekkon,       shirafuji,   none,      none]
     " Statusline
-    let highlight_group.StatusLine   = [nanohana,     rokusho,     none,      none]
-    let highlight_group.StatusLineNC = [wakatake,     rokusho,     none,      none]
+    let highlight_group.StatusLine   = [nanohana,     kakitubata,     none,      none]
+    let highlight_group.StatusLineNC = [wakatake,     kakitubata,     none,      none]
     let highlight_group.WildMenu     = [rokusho,      nanohana,    bold,      none]
     " Tabline
     let highlight_group.TabLine      = [wakatake,     rokusho,     none,      none]
