@@ -4,7 +4,7 @@ Bgreen with light blackground:
 
 #### 白色背景色
 PaperColor with light blackground:  
-![White](White.png)
+![white](white.png)
 
 #### 灰黑色背景色
 monokai  
