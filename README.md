@@ -1,8 +1,8 @@
-tatami
+Bgreen
 ====================
 ### 豆沙绿色背景色
 
-WhitePaper
+PaperColor
 ===================
 ### 白色背景色
 

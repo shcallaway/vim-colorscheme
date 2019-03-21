@@ -1,14 +1,14 @@
 "------------------------------------------------------------
-" Name: tatami.vim
+" Name: Bgreen.vim
 " Description: Green colorscheme for vim.
-" Maintainer: machakann
+" Maintainer: Barret Ren
 "------------------------------------------------------------
 
 highlight clear
 if exists('syntax_on')
     syntax reset
 endif
-let g:colors_name = 'tatami'
+let g:colors_name = 'Bgreen'
 
 function! s:set() abort
   " Palette
@@ -66,7 +66,7 @@ function! s:set() abort
 
     "*** highlight groups (:h highlight-groups) ***"
     " fundamental
-    let highlight_group.Normal       = [dobunezumi,   wakatake,      none,      none]
+    let highlight_group.Normal       = [kokutan,   wakatake,      none,      none]
     let highlight_group.Visual       = [none,         tanko,       none,      none]
     " Cursor
     let highlight_group.Cursor       = [sakurairo,    tekkon,      none,      none]

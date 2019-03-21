@@ -512,7 +512,7 @@ fun! s:generate_language_option_variables()
 
   " 1. Generate variables and set to default value
   for l:option in l:available_language_options
-    let s:{'langOpt_' . l:option} = 1
+    let s:{'langOpt_' . l:option} = 0
   endfor
 
   " Part of user-config options
